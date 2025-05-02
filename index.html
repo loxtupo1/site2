@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Курсовая С. Алькей</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портал недвижимости Казахстана - покупка, продажа, аренда недвижимости.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Home</div>
+    <nav class="menu">
+      <a href="index.html">Главная</a>
+      <a href="/index/company-info.html">О компании</a>
+      <a href="/index/news.html">Новости</a>
+      <a href="/index/contacts.html">Контакты</a>
+    </nav>
+   
+    <div class="phone"> +7 777 777 77 77</div>
+    <button class="add-house">Добавить объявление</button>
+
+<div class="login-modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Вход</h2>
+        <input type="text" class="email-input" placeholder="Введите ваш email">
+        <button class="login-submit">Войти</button>
+        <p class="login-message"></p>
+    </div>
+</div>
+  </header>
+  
+
+  <section class="main">
+    <p class="subtitle">МЫ ПОМОЖЕМ ТЕБЕ НАЙТИ ЖИЛЬЕ</p>
+    <h1>Найди идеальный дом</h1>
+    <p class="desc">Более 745 000 квартир, домов и участков</p>
+
+    <div class="search">
+      <select name="select1">
+        <option value="city">Выберите город</option>
+        <option value="Almaty">Алматы</option>
+        <option value="Astana">Астана</option>
+      </select>
+
+      <select name="select2">
+        <option value="rooms">Выберите комнатность</option> 
+        <option value="1-room">1 комната</option>
+        <option value="2-rooms">2 комнаты</option>
+        <option value="3-rooms">3 комнаты</option>
+        <option value="4-rooms">4 комнаты</option>
+        <option value="5+-rooms">Больше 5 комнат</option>
+      </select>
+
+      <input type="text" placeholder="От           ₸" class="input-price-1">
+      <input type="text" placeholder="До           ₸" class="input-price-2">
+      <button class="search-button"><img class="search-png" src="./img/search.png" alt="search-button"></button>
+    </div>
+
+    <div class="filters">
+      <button>Все объекты</button>
+      <button>На продажу</button>
+      <button>В аренду</button>
+    </div>
+  </section>
+
+<section class="steps">
+    <h2>Как легко найти дом? — так же, как посчитать 1, 2, 3</h2>
+    <p class="steps-desc">Вот простой способ найти жильё своей мечты</p>
+  
+    <div class="steps2">
+      <div class="step">
+        <div class="icon"><img class="icon1" src="./img/marker.png" alt="marker"></div>
+          <h3>1. Найди дом в своём районе</h3>
+          <p>Просто введи название города или района, где хочешь жить.</p>
+      </div>
+      <div class="step">
+        <div class="icon"><img class="icon1" src="./img/calendar.png" alt="calendar"></div>
+          <h3>2. Запишись на просмотр</h3>
+          <p>Свяжись с агентом и договорись о просмотре понравившегося объекта.</p>
+      </div>
+      <div class="step">
+        <div class="icon"><img class="icon1" src="./img/home.png" alt="home"></div>
+          <h3>3. Заселяйся в дом мечты</h3>
+          <p>Если всё понравилось — подписывай договор и заезжай!</p>
+      </div>
+    </div>
+  </section>
+
+<section class="categories">
+    <h2>Популярные категории</h2>
+    <p class="cat-desc">Выбери тип недвижимости, который тебя интересует</p>
+    <div class="category-list">
+      <a href="/index/category/apartaments.html" class="category-card">
+        <div class="cat-icon"><img class="icon1" src="./img/apartment.png" alt="apartament"></div>
+        <div class="cat-title">Квартира</div>
+        <div class="cat-count">2 объекта</div>
+      </a>
+      <a href="/index/category/offices.html" class="category-card">
+        <div class="cat-icon"><img class="icon1" src="./img/office.png" alt="office"></div>
+        <div class="cat-title">Офис</div>
+        <div class="cat-count">2 объекта</div>
+      </a>
+      <a href="/index/category/houses.html" class="category-card">
+        <div class="cat-icon"><img class="icon1" src="./img/family-house.png" alt="family-house"></div>
+        <div class="cat-title">Семейный дом</div>
+        <div class="cat-count">1 объект</div>
+      </a>
+    </div>
+  </section>
+
+<section class="objects">
+    <h2>Объекты в аренду</h2>
+    <p class="objects-desc">Свежие предложения, добавленные недавно</p>
+    <div class="object-list">
+      <div class="object-card">
+        <div class="object-img"><img class="object-img-png" src="./img/house-for-sale-1.png" alt="Умная квартира"></div>
+        <div class="object-info">
+          <div class="object-price">300.000₸ / мес</div>
+          <a href="/index/search/house-ann.html" class="object-title">Умная квартира</a>
+          <div class="object-details">2 спальни | 1 ванная | 68 м2</div>
+        </div>
+      </div>
+  
+      <div class="object-card">
+        <div class="object-img"><img class="object-img-png" src="./img/house-for-sale-2.png" alt="Дом с красивым двором"></div>
+        <div class="object-info">
+          <div class="object-price">400.000₸ / мес</div>
+          <a href="/index/search/house-ann.html" class="object-title">Дом с красивым двором</a>
+          <div class="object-details">1 спальня | 2 комнаты | 2 ванные | 120 м2</div>
+        </div>
+      </div>
+  
+      <div class="object-card">
+        <div class="object-img"><img class="object-img-png" src="./img/house_for_sale_3.png" alt="Студия звукозаписи"></div>
+        <div class="object-info">
+          <div class="object-price">200.000₸ / мес</div>
+          <a href="/index/search/house-ann.html" class="object-title">Студия звукозаписи</a>
+          <div class="object-details">1 комната | 1 ванная | 35 м2</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-us">
+    <h2>Почему вы можете доверять нам?</h2>
+    <div class="trust-us-content">
+      <div class="trust-us-png"><img src="/img/trust-us-png-1.png" alt="trust-us-png"></div>
+      <ul class="trust-us-list">
+        <li>100% безопасность</li>
+        <li>Сотни людей доверяют нам</li>
+        <li>Личная встреча с квалифицированными специалистами</li>
+        <li>Только проверенные обьекты</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="get-contact">
+    <h2>Если у вас есть какие либо вопросы, оставьте нам свои контакты</h2>
+    <p>Мы свяжемся с вами в течении дня</p>
+    <div class="get-contact-enter">
+      <input type="text" class="email.input" placeholder="Введите ваш email">
+      <button class="enter-button"><img class="enter-png" src="./img/enter.png" alt="enter-button"></button>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p>@copyright</p>
+  </footer>
+
+  <script src="/script.js"></script>
+
+</body>
+</html>
+
